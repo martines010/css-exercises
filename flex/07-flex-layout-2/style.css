@@ -4,13 +4,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+}
+
+.content-container {
+  display: flex;
+  flex-grow: 1;
 }
 
 .footer {
