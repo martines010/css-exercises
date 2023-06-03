@@ -21,6 +21,21 @@ body {
   flex-grow: 0;
 }
 
+.sidebar ul {
+  padding-left: 16px;
+}
+
+.sidebar li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
 .content-container {
   display: flex;
   flex-grow: 1;
