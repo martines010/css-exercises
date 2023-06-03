@@ -17,6 +17,18 @@ body {
   flex-grow: 1;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+}
+
+.card-container > div {
+  width: 250px;
+  padding: 10px;
+}
+
 .footer {
   height: 72px;
   background: #eee;
